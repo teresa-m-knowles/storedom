@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem 'rails', '4.2.8'
 gem 'sqlite3', '~> 1.3.6' 
@@ -14,7 +14,7 @@ gem 'therubyracer'
 gem 'less-rails-bootstrap'
 
 group :development do
-  gem 'spring'
+  gem "spring"
 end
 
 group :development, :test do
